@@ -1,0 +1,60 @@
+<html>
+   <head> 
+    <title> my webpage</title>
+   </head>>
+    <body id = "b">
+<h1 id="del">my first webpage</h1> 
+<nav>
+<ul>
+<li>
+<a href="#"><button onclick="y()">prompt</button> </a>
+</li>
+<li>
+<a href="#"><button onclick="myFunction1()">green</button></a>
+</li>
+<li>
+<a href="#"><button onclick="myFunction2()">red</button></a>
+</li>
+<li>
+<a href="#"><button onclick="myF3()">date and time</button></a>
+</li>
+<li>
+<a href="#"><button onclick="myF4()">change heading</button></a>
+</li>
+</ul>
+</nav>
+
+<script>
+function y()
+{
+document.getElementById("x").innerHTML="Welcome!";
+}
+
+function myFunction1()
+{
+document.body.style.backgroundColor= "green";
+}
+
+function myFunction2()
+{   
+document.body.style.backgroundColor= "red";
+}
+
+function myF3()     
+{
+document.getElementById("date").innerHTML=Date();
+}
+
+function myF4()
+{
+        document.getElementById("del").innerHTML="Its my own webpage";
+
+}
+</script>
+
+
+<p id ="x"></p>
+<p id="date"></p>
+
+</body>
+</html>
